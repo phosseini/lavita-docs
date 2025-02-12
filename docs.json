@@ -58,19 +58,19 @@
         {
           "anchor": "Reddit",
           "href": "https://www.reddit.com/r/LavitaAI/",
-          "icon": "fa-brands fa-reddit"
+          "icon": "slack"
         },
         {
           "anchor": "X",
           "href": "https://x.com/LavitaAI",
-          "icon": "fa-brands fa-x-twitter"
+          "icon": "slack"
         }
       ]
     }
   },
   "logo": {
-    "light": "/logo/Lavita_logo_color-white.svg",
-    "dark": "/logo/Lavita_logo_color-white.svg"
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
   },
   "navbar": {
     "links": [
