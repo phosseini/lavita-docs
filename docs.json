@@ -56,14 +56,14 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Reddit",
+          "anchor": "r/LavitaAI",
           "href": "https://www.reddit.com/r/LavitaAI/",
           "icon": "reddit"
         },
         {
           "anchor": "X",
           "href": "https://x.com/LavitaAI",
-          "icon": "reddit"
+          "icon": "x-twitter"
         }
       ]
     }
