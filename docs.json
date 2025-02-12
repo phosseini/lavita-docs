@@ -69,8 +69,8 @@
     }
   },
   "logo": {
-    "light": "/logo/lavita.svg",
-    "dark": "/logo/lavita.svg"
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
   },
   "navbar": {
     "links": [
