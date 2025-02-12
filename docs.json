@@ -1,22 +1,24 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Lavita AI",
+  "name": "Mint Starter Kit",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/lavita.svg",
+  "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
         "tab": "Guides",
         "groups": [
           {
-            "group": "Lavita AI Jobs",
+            "group": "Get Started",
             "pages": [
               "introduction",
+              "quickstart",
+              "development"
             ]
           },
           {
@@ -80,7 +82,7 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:tech@lavita.ai"
+        "href": "mailto:hi@mintlify.com"
       }
     ],
     "primary": {
@@ -91,9 +93,9 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/LavitaAI",
-      "github": "https://github.com/lavita-ai",
-      "linkedin": "https://linkedin.com/company/lavita-ai"
+      "x": "https://x.com/mintlify",
+      "github": "https://github.com/mintlify",
+      "linkedin": "https://linkedin.com/company/mintlify"
     }
   }
 }
