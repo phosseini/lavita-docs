@@ -56,26 +56,21 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Reddit",
+          "href": "https://www.reddit.com/r/LavitaAI/",
+          "icon": "fa-brands fa-reddit"
         },
         {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "X",
+          "href": "https://x.com/LavitaAI",
+          "icon": "fa-brands fa-x-twitter"
         }
       ]
     }
   },
   "logo": {
-    "light": "/lavita.svg",
-    "dark": "/lavita.svg"
+    "light": "/logo/lavita.svg",
+    "dark": "/logo/lavita.svg"
   },
   "navbar": {
     "links": [
