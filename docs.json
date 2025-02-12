@@ -58,12 +58,12 @@
         {
           "anchor": "Reddit",
           "href": "https://www.reddit.com/r/LavitaAI/",
-          "icon": "slack"
+          "icon": "reddit"
         },
         {
           "anchor": "X",
           "href": "https://x.com/LavitaAI",
-          "icon": "fa-twitter"
+          "icon": "reddit"
         }
       ]
     }
