@@ -31,14 +31,20 @@ To help us better understand the source of issues with your AI Jobs, in case of 
   Logs path on **Windows**: `C:\Users\[your_username]\AppData\Roaming\Theta Edge Node\ThetaEdgeNode\lavita\data\models`
 </Tip>
 
+The following table includes the log messages in **`qa_main.log`**:
+
 | Log                                            | Explanation                                            |
 | --- | --- |
 | Loading dataset                                | Dataset for fine-tuning is being loaded/downloaded    |
-| Failed to load dataset                         | Issue encountered while loading or downloading dataset |
+| Failed to load dataset                         | Issue encountered while loading or downloading the dataset |
 | Start fine-tuning                              | Fine-tuning process has started                        |
 | Fine-tuning is done. Saving the best model     | Model fine-tuning completed successfully               |
 | Setting up cloud tools for uploading the model | Preparing cloud environment for model upload          |
 | Uploading fine-tuned model files to cloud      | Upload process for the fine-tuned model has started   |
-| Uploading model file                           | Individual model file is being uploaded               |
+| Uploading model file                           | An individual model file is being uploaded            |
 | Error in model file uploading                  | An error occurred during model file upload            |
+| Computing the model hash                       | Generating a unique hash for the model files to ensure integrity |
+| Posting model hash to server                   | Sending the computed model hash to the server for verification |
+| Posted model hash to server.                   | Model hash was successfully posted to the server      |
+| Failed to post model hash to server.           | An error occurred while posting the model hash        |
 | End of Lavita job                              | Indicates completion of the AI job                    |
