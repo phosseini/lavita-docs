@@ -20,6 +20,12 @@
               "ai-jobs/troubleshooting",
               "ai-jobs/faq"
             ]
+          },
+          {
+            "group": "Medical Evaluation Sphere",
+            "pages": [
+              "eval-sphere/introduction"
+            ]
           }
         ]
       }
