@@ -14,6 +14,12 @@
         "tab": "Lavita Documentation",
         "groups": [
           {
+            "group": "Get started",
+            "pages": [
+              "docs/overview"
+            ]
+          },
+          {
             "group": "Lavita AI Jobs",
             "pages": [
               "ai-jobs/setup",
