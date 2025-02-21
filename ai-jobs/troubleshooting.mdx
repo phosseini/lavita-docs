@@ -12,16 +12,13 @@ If you're encountering errors or noticing that jobs are not completing, verify t
   A machine with only a **CPU** and at least **16GB of RAM** should be able to receive and run AI Jobs without any issues, assuming there is a minimum amount of disk space (**preferably at least 10GB free**).
 </Note>
 
-
 ## Check Logs
 
 To help us better understand the source of issues with your AI Jobs, in case of failure, find the following two logs:
 
-- **`qa_main.log`**  
-  This file contains logs for every step of running AI Jobs. You can check this file line by line to see what actually happens when your jobs are running. In case of failure, reviewing this file provides insights into where the issue might be.
+* **`qa_main.log`**&#x54;his file contains logs for every step of running AI Jobs. You can check this file line by line to see what actually happens when your jobs are running. In case of failure, reviewing this file provides insights into where the issue might be.
 
-- **`qa_progress.log`**  
-  This file captures system logs, including [`stdout`](https://en.wikipedia.org/wiki/Standard_streams) and [`stderr`](https://en.wikipedia.org/wiki/Standard_streams). It helps display the progress of AI Jobs on the Edge Node UI while also catching error messages or diagnostics.
+* **`qa_progress.log`**&#x54;his file captures system logs, including [`stdout`](https://en.wikipedia.org/wiki/Standard_streams) and [`stderr`](https://en.wikipedia.org/wiki/Standard_streams). It helps display the progress of AI Jobs on the Edge Node UI while also catching error messages or diagnostics.
 
 <Tip>
   Logs path on **Mac**: `/Users/[your_username]/Library/Application Support/Theta Edge Node/ThetaEdgeNode/lavita/data/models`
@@ -33,18 +30,18 @@ To help us better understand the source of issues with your AI Jobs, in case of 
 
 The following table includes the log messages in **`qa_main.log`**:
 
-| Log                                            | Explanation                                            |
-| --- | --- |
-| Loading dataset                                | Dataset for fine-tuning is being loaded/downloaded    |
-| Failed to load dataset                         | Issue encountered while loading or downloading the dataset |
-| Start fine-tuning                              | Fine-tuning process has started                        |
-| Fine-tuning is done. Saving the best model     | Model fine-tuning completed successfully               |
-| Setting up cloud tools for uploading the model | Preparing cloud environment for model upload          |
-| Uploading fine-tuned model files to cloud      | Upload process for the fine-tuned model has started   |
-| Uploading model file                           | An individual model file is being uploaded            |
-| Error in model file uploading                  | An error occurred during model file upload            |
+| Log                                            | Explanation                                                      |
+| ---------------------------------------------- | ---------------------------------------------------------------- |
+| Loading dataset                                | Dataset for fine-tuning is being loaded/downloaded               |
+| Failed to load dataset                         | Issue encountered while loading or downloading the dataset       |
+| Start fine-tuning                              | Fine-tuning process has started                                  |
+| Fine-tuning is done. Saving the best model     | Model fine-tuning completed successfully                         |
+| Setting up cloud tools for uploading the model | Preparing cloud environment for model upload                     |
+| Uploading fine-tuned model files to cloud      | Upload process for the fine-tuned model has started              |
+| Uploading model file                           | An individual model file is being uploaded                       |
+| Error in model file uploading                  | An error occurred during model file upload                       |
 | Computing the model hash                       | Generating a unique hash for the model files to ensure integrity |
-| Posting model hash to server                   | Sending the computed model hash to the server for verification |
-| Posted model hash to server.                   | Model hash was successfully posted to the server      |
-| Failed to post model hash to server.           | An error occurred while posting the model hash        |
-| End of Lavita job                              | Indicates completion of the AI job                    |
+| Posting model hash to server                   | Sending the computed model hash to the server for verification   |
+| Posted model hash to server.                   | Model hash was successfully posted to the server                 |
+| Failed to post model hash to server.           | An error occurred while posting the model hash                   |
+| End of Lavita job                              | Indicates completion of the AI job                               |

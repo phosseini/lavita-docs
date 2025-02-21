@@ -52,8 +52,8 @@
     }
   },
   "logo": {
-    "light": "/logo/lavita-white.svg",
-    "dark": "/logo/lavita-white.svg"
+    "light": "/logo/Lavita_logo_color-black.svg",
+    "dark": "/logo/Lavita_logo_color-white.svg"
   },
   "navbar": {
     "links": [
