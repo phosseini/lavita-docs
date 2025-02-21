@@ -47,6 +47,11 @@
           "anchor": "LavitaAI",
           "href": "https://x.com/LavitaAI",
           "icon": "x-twitter"
+        },
+        {
+          "anchor": "Discord",
+          "href": "https://discord.gg/GSxBfSmh8G",
+          "icon": "discord"
         }
       ]
     }
