@@ -24,13 +24,18 @@
             "pages": [
               "ai-jobs/setup",
               "ai-jobs/troubleshooting",
-              "ai-jobs/faq"
             ]
           },
           {
             "group": "Medical Evaluation Sphere",
             "pages": [
               "eval-sphere/introduction"
+            ]
+          },
+          {
+            "group": "Frequently Asked Questions",
+            "pages": [
+              "faq/lavita-token"
             ]
           }
         ]
