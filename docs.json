@@ -7,7 +7,7 @@
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/logo/lavita-white.svg",
+  "favicon": "/logo/Lavita_logo_circle_mark.svg",
   "navigation": {
     "tabs": [
       {
@@ -69,8 +69,8 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Lavita AI Website",
+      "href": "https://www.lavita.ai/"
     }
   },
   "footer": {
