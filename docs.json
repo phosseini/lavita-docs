@@ -20,17 +20,17 @@
             ]
           },
           {
-            "group": "Lavita AI Jobs",
-            "pages": [
-              "ai-jobs/setup",
-              "ai-jobs/troubleshooting"
-            ]
-          },
-          {
             "group": "Medical Evaluation Sphere",
             "pages": [
               "eval-sphere/introduction",
               "eval-sphere/models"
+            ]
+          },
+          {
+            "group": "Lavita AI Jobs",
+            "pages": [
+              "ai-jobs/setup",
+              "ai-jobs/troubleshooting"
             ]
           },
           {
