@@ -7,3 +7,27 @@ Lavita AI’s [Medical Evaluation Sphere](https://assist.lavita.ai/evaluation) i
 <Frame caption="Lavita AI’s Medical Evaluation Sphere">
   <img width="700" alt="Alt text" src="/images/eval-sphere-1.png" />
 </Frame>
+
+## How It Works
+
+On the Medical Evaluation Sphere, users can chat with two foundation models and compare their performances. Everything starts with asking a question. Users can engage in either a **single-turn** or **multi-turn** conversation, then compare the responses from both models and vote on one of the following:
+
+1. **Model A is better**
+
+2. **Model B is better**
+
+3. **It’s a tie** (both models performed well)
+
+4. **Neither** (neither model provided a good response)
+
+<Frame caption="Comparing model outputs and voting for the preferred response">
+  <img width="700" alt="Model comparison voting interface" src="/images/eval-sphere-2.png" />
+</Frame>
+
+There are two modes of conversation on the Evaluation Sphere. By default, the models remain **anonymous** to ensure an objective comparison. However, users can choose to uncheck the **“Anonymous Battle”** option and manually select which models to compare—this is called a **non-anonymous battle**. In **anonymous battle mode**, after submitting a vote, the model names will be revealed.
+
+<Frame caption="Revealing model names after submitting the vote">
+  <img width="700" alt="Model names revealed post-vote" src="/images/eval-sphere-3.png" />
+</Frame>
+
+<Note>When reporting results on our **leaderboard**, we only consider votes from anonymous battles. Additionally, while users can ask any type of question, we filter out votes on **non-medical or non-clinical** conversations when aggregating results. Therefore, we encourage users to focus on **medical questions**, as votes on non-medical topics will not be counted.</Note>
