@@ -1,0 +1,33 @@
+---
+title: "Overview"
+---
+
+```mermaid
+flowchart LR
+    subgraph Users[THETA Users]
+        direction TB
+        A[Q&A Code] -->|Share with users| B
+        C[Train] & D[Validation] -->|Task data| B
+        B -->|Rewarding users| $[Incentives]
+    end
+
+    subgraph ModelTraining[Model Training Pipeline]
+        direction TB
+        B -->|Training model| E[Training Model]
+        E -->|Model files| I[Hash Function]
+        I -->|Hash validation| H[Database]
+        I -->|Model files| J[Shared Access Signature (SAS)]
+    end
+
+    subgraph Evaluation[Lavita Evaluation]
+        direction TB
+        F[Test] -->|Keep private| G
+        G -->|Hash validation| H
+    end
+
+    subgraph Storage[Microsoft Azure Blob Storage]
+        direction TB
+        J -->|Downloading models| K[User Container]
+        K --> L[Model Blob]
+    end
+```
