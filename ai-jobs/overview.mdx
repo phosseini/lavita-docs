@@ -3,31 +3,33 @@ title: "Overview"
 ---
 
 ```mermaid
-flowchart LR
-    subgraph THETA_Users["THETA Users"]
-        direction TB
-        QA_Code["Q&A Code"] -->|Share with users| Users
-        Train["Train"] & Validation["Validation"] -->|Task data| Users
-        Users -->|Rewarding users| Incentives["💰 Incentives"]
-    end
+sequenceDiagram
+    participant User as THETA Users
+    participant QACode as Q&A Code
+    participant Train as Train
+    participant Validation as Validation
+    participant Incentives as 💰 Incentives
+    participant Model as Training Model
+    participant HashFunc as Hash Function
+    participant DB as Database
+    participant Eval as Lavita Evaluation
+    participant Test as Test
+    participant SAS as Shared Access Signature (SAS)
+    participant Azure as Microsoft Azure Blob Storage
+    participant Container as User Container
+    participant Blob as Model Blob
 
-    subgraph Model_Training["Model Training Pipeline"]
-        direction TB
-        Users -->|Training model| Training_Model["Training Model"]
-        Training_Model -->|Model files| Hash_Function["Hash Function"]
-        Hash_Function -->|Hash validation| Database["Database"]
-        Hash_Function -->|Model files| SAS["Shared Access Signature (SAS)"]
-    end
-
-    subgraph Lavita_Evaluation["Lavita Evaluation"]
-        direction TB
-        Test["Test"] -->|Keep private| Evaluation["Evaluation"]
-        Evaluation -->|Hash validation| Database
-    end
-
-    subgraph Azure_Storage["Microsoft Azure Blob Storage"]
-        direction TB
-        SAS -->|Downloading models| User_Container["User Container"]
-        User_Container --> Model_Blob["Model Blob"]
-    end
+    QACode ->> User: Share Q&A and Code
+    Train ->> User: Provide training data
+    Validation ->> User: Provide validation data
+    User ->> Incentives: Reward users 💰
+    User ->> Model: Train model
+    Model ->> HashFunc: Generate model hash
+    HashFunc ->> DB: Store hash validation
+    HashFunc ->> SAS: Generate access signature
+    SAS ->> Azure: Store model files
+    Azure ->> Container: Save models in user container
+    Container ->> Blob: Store models as blobs
+    Test ->> Eval: Keep test data private
+    Eval ->> DB: Validate hash for evaluation
 ```
