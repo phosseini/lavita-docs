@@ -16,7 +16,7 @@
           {
             "group": "Get started",
             "pages": [
-              "docs/overview"
+              {"title": "Overview", "href": "docs/overview", "icon": "rocket"}
             ]
           },
           {
