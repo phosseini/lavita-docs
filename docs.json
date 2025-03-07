@@ -58,6 +58,16 @@
           "anchor": "Discord",
           "href": "https://discord.gg/GSxBfSmh8G",
           "icon": "discord"
+        },
+        {
+          "anchor": "Medium",
+          "href": "https://lavita-ai.medium.com/",
+          "icon": "medium"
+        },
+        {
+          "anchor": "Telegram",
+          "href": "https://t.me/Lavita_AI",
+          "icon": "telegram"
         }
       ]
     }
