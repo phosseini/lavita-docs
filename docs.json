@@ -15,33 +15,29 @@
         "groups": [
           {
             "group": "Get started",
-            "icon": "rocket",
             "pages": [
-              {"title": "Overview", "href": "docs/overview", "icon": "book-open"}
+              "docs/overview"
             ]
           },
           {
             "group": "Medical Evaluation Sphere",
-            "icon": "stethoscope",
             "pages": [
-              {"title": "Introduction", "href": "eval-sphere/introduction", "icon": "clipboard"},
-              {"title": "Models", "href": "eval-sphere/models", "icon": "cpu"}
+              "eval-sphere/introduction",
+              "eval-sphere/models"
             ]
           },
           {
             "group": "Lavita AI Jobs",
-            "icon": "briefcase",
             "pages": [
-              {"title": "Overview", "href": "ai-jobs/overview", "icon": "info"},
-              {"title": "Setup", "href": "ai-jobs/setup", "icon": "settings"},
-              {"title": "Troubleshooting", "href": "ai-jobs/troubleshooting", "icon": "tool"}
+              "ai-jobs/overview",
+              "ai-jobs/setup",
+              "ai-jobs/troubleshooting"
             ]
           },
           {
             "group": "Frequently Asked Questions",
-            "icon": "help-circle",
             "pages": [
-              {"title": "Lavita Token", "href": "faq/lavita-token", "icon": "key-round"}
+              "faq/lavita-token"
             ]
           }
         ]
