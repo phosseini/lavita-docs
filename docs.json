@@ -29,7 +29,6 @@
           {
             "group": "Lavita AI Jobs",
             "pages": [
-              "ai-jobs/overview",
               "ai-jobs/setup",
               "ai-jobs/troubleshooting"
             ]
