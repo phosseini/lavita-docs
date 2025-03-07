@@ -15,11 +15,9 @@
         "groups": [
           {
             "group": "Get started",
+            "icon": "rocket",
             "pages": [
-              {
-                "path": "docs/overview",
-                "icon": "rocket"
-              }
+              "docs/overview"
             ]
           },
           {
