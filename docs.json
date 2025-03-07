@@ -16,7 +16,10 @@
           {
             "group": "Get started",
             "pages": [
-              "docs/overview"
+              {
+                "path": "docs/overview",
+                "icon": "rocket"
+              }
             ]
           },
           {
