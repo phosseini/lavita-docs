@@ -16,10 +16,7 @@
           {
             "group": "Get started",
             "pages": [
-              {
-                "icon": "pen-paintbrush",
-                "pages": ["docs/overview"]
-              }
+              "docs/overview"
             ]
           },
           {
