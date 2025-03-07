@@ -15,9 +15,12 @@
         "groups": [
           {
             "group": "Get started",
-            "icon": "rocket",
             "pages": [
-              "docs/overview"
+              {
+                "group": "Overview",
+                "icon": "pen-paintbrush",
+                "pages": ["docs/overview"]
+              }
             ]
           },
           {
