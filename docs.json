@@ -20,9 +20,10 @@
             ]
           },
           {
-            "group": "Medical Evaluation Sphere",
+            "group": "Medical Sphere",
             "pages": [
               "eval-sphere/introduction",
+              "eval-sphere/medical-professionals",
               "eval-sphere/models"
             ]
           },
